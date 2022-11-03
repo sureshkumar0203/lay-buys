@@ -1,0 +1,252 @@
+.toggleMenu {
+	display: none;
+	/*background: #666;*/    
+	padding: 10px 15px;
+	color: #fff;
+	float: right;
+	top: -8px;
+	/*position: absolute;*/
+	font-size: 20px;
+	z-index: 9999999;
+	right: 0px;
+	background: #476ab6;
+	display: block;
+	width: 100%;
+	text-align:right;
+	color:#fff;	
+	background: #24a5d9;
+	background: -moz-linear-gradient(left, #24a5d9 0%, #0586cf 100%);
+	background: -webkit-linear-gradient(left, #24a5d9 0%,#0586cf 100%);
+	background: linear-gradient(to right, #24a5d9 0%,#0586cf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24a5d9', endColorstr='#0586cf',GradientType=1 );
+}
+.nav {
+    list-style: none;
+    *zoom: 1;
+    /*float: right;*/
+    line-height: 13PX;
+	margin-top:30px;
+    /*margin-right: 30px;*/
+    /*border-right: solid 1px #dadada;*/
+}
+.nav:before,
+.nav:after {
+    content: " ";
+    display: table;
+}
+.nav:after {
+    clear: both;
+}
+.nav ul {
+    list-style: none;
+    /*width: 9em;*/
+}
+.nav a {
+    padding: 10px 15px;
+    color: #000;
+    /*	background:#FFFFFF;
+	border-radius:5px;
+	border:solid 1px #dddddd;*/
+    
+    /*text-transform: uppercase;*/
+	/*font-size:17px;*/
+}
+.nav li {
+    position: relative;
+    /*margin-right: 3px;*/
+}
+/*.nav li:last-child {
+	margin-right:0px;
+	
+}*/
+
+.nav > li {
+    float: left;
+}
+.nav > li > .parent {
+    background-image: url(../images/downArrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+	/*padding-right:10px;*/
+}
+.nav > li > a {
+    display: block;
+    /*line-height: 28px;*/
+	padding:8px 15px 8px 15px;
+}
+.nav > li > a.active {
+    background:#72934a;    
+    color: #fff;
+    /*border:solid 1px #0e69b1;*/    
+    /*border-bottom: solid 3px #0E69B1;*/
+}
+.nav li ul {
+    position: absolute;
+    left: -9999px;
+    min-width: 230px;
+	z-index:9999999;
+	background:#fff;
+}
+.nav > li.hover > ul {
+    left: 0;
+	border:solid 1px #b9b9b9;
+}
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+	
+}
+.nav li li a {
+    display: block;
+    background: #fff;
+    position: relative;
+    z-index: 100;
+    border-bottom: 1px solid #e5e5e5;
+    color: #000;
+    text-transform:uppercase;
+	font-size:14px;
+}
+.nav li li a:hover {
+    
+background: #24a5d9; /* Old browsers */
+background: -moz-linear-gradient(left, #24a5d9 0%, #0586cf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #24a5d9 0%,#0586cf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #24a5d9 0%,#0586cf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24a5d9', endColorstr='#0586cf',GradientType=1 ); /* IE6-9 */
+color:#fff;
+}
+.nav li li li a {
+    /*background: #003571;*/
+    z-index: 200;
+    border-top: 1px solid #0e69b1;
+}
+.nav>li>a:hover {
+    text-decoration: none;
+    /*background-color: #f96616!important;*/
+    /*border-bottom:solid 3px #0E69B1;*/
+	
+background: #24a5d9; /* Old browsers */
+background: -moz-linear-gradient(left, #24a5d9 0%, #0586cf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #24a5d9 0%,#0586cf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #24a5d9 0%,#0586cf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24a5d9', endColorstr='#0586cf',GradientType=1 ); /* IE6-9 */
+color:#fff;	
+}
+
+
+@media screen and (max-width: 1024px) {
+  .nav>li>a{    padding: 10px 9px;}
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        float: none;
+        z-index: 9999999;
+        position: absolute;
+        width: 100%;
+        border: solid 1px #EAEAEA;
+        left: 0px;
+		top:229px;
+    }
+    .nav li {
+        margin-right: 0px;
+        border-bottom: solid 1px #EAEAEA;
+    }
+    .nav > li > a {
+        background: #003571;
+        line-height: 11px;
+		    background: #24a5d9;
+    background: -moz-linear-gradient(left, #24a5d9 0%, #0586cf 100%);
+    background: -webkit-linear-gradient(left, #24a5d9 0%,#0586cf 100%);
+    background: linear-gradient(to right, #24a5d9 0%,#0586cf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24a5d9', endColorstr='#0586cf',GradientType=1 );
+	color:#fff;
+	text-align:left;
+	font-size:13px;
+    }
+    .nav > li > a:hover {
+        background-color: #f96616 !important;
+        line-height: 11px;
+    }
+    .nav > li > a.active {
+        background: #fff;
+        color: #000;
+        border-bottom: none;
+    }
+    .active {
+        display: block;
+    }
+    .nav > li {
+        float: none;
+    }
+    .nav > li > .parent {
+        background-position: 95% 50%;
+		    background: #24a5d9;
+    background: -moz-linear-gradient(left, #24a5d9 0%, #0586cf 100%);
+    background: -webkit-linear-gradient(left, #24a5d9 0%,#0586cf 100%);
+    background: linear-gradient(to right, #24a5d9 0%,#0586cf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24a5d9', endColorstr='#0586cf',GradientType=1 );
+    }
+    .nav li li .parent {
+        background-image: url("images/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+    .nav > li.hover > ul,
+    .nav li li.hover ul {
+        position: static;
+    }
+    .toggleMenu {
+        top: 10px;
+    }
+    .nav li li a {
+	  display: block;
+	  background: #F6F6F9;
+	  position: relative;
+	  z-index: 100;
+	  /*border-top: 1px solid #175e4c;*/        
+	  color: #000;
+	  font-size: 13px;
+	  text-align: left;
+    }
+    .nav li ul {
+        width: 100%;
+    }
+	
+	.mrl10{display:none!important; }
+	
+}
+
+
+
+@media screen and (max-width: 768px){
+.nav{top:16px;}
+	}
+
+
+@media screen and (max-width: 425px) {
+    .toggleMenu {
+	top: 10px;
+	font-size: 20px;
+	color:#476ab6;
+	width: 100%;
+	position: absolute;
+	cursor:pointer;
+    }
+	.nav{top:27px;}
+	
+
+	
+}
+@media screen and (max-width: 320px) {
+    .nav {
+        width: 100%;
+    }
+	.nav{top:17px;}
+}

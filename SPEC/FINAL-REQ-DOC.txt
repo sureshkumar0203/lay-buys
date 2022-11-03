@@ -1,0 +1,44 @@
+Project Start 6th july 2018 (Friday)
+-----------------------------------------------
+
+To implement all the following features it will take approximately 55 days. If you want to add any other features then let us know. So that we will give you a new time line.
+
+Admin Section
+--------------------------------------
+->Admin Login
+->Admin forgot password
+->Manage Admin profile:
+->Admin Change Password:
+->Admin Logout:
+-> Manage CMS Content page like   : About us, Terms & conditions (only edit pages)
+-> Mange Category: like TV, Washing Machine (add/edit/delete)
+-> Mange Sub category: like Samsung TV,LG TV, Sony TV (add/edit/delete)
+-> Manage Banners: For home page slide (add/edit/delete)
+-> Mange Products: given add/edit/delete features
+-> Manage Orders: all order from customers with transaction history
+-> Orders ready to dispatch
+-> Mange customers: All registered customers listing
+-> Refund money against cancellation
+
+User Section 
+-----------------------------------------------------
+>    User Login
+>    User Logout
+>    Forgot password
+>    Change Profile
+>    Change Password
+>    Order History
+>    Installment Payment
+>    Cancel order
+
+Note : Paypal Payment Gateway integration 
+
+Front End
+--------------------------------------------
+Home 
+About us 
+Terms & condition
+Contact us
+Products listing page with category wise
+Product details
+User Registration

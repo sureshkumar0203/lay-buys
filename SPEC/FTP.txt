@@ -1,0 +1,19 @@
+Bluehost
+laybuys.co.uk
+Jakey1s8!
+
+Server Admin Login Credentials
+------------------------------------------
+Username: sales@laybuys.co.uk 
+password : Westm1nster
+
+
+Local Admin Login Credentials
+------------------------------------------
+URL - http://localhost:8080/lay-buys/administrator
+Username: suresh@bletindia.com
+password : Admin@1983
+
+
+suresh@bletindia.com / Demo@1234
+
